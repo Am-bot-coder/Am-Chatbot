@@ -1,0 +1,50 @@
+[
+  {
+    "sender": "You",
+    "message": "hi"
+  },
+  {
+    "sender": "Gemini",
+    "message": "Error: 400 API key not valid. Please pass a valid API key. [reason: \"API_KEY_INVALID\"\ndomain: \"googleapis.com\"\nmetadata {\n  key: \"service\"\n  value: \"generativelanguage.googleapis.com\"\n}\n, locale: \"en-US\"\nmessage: \"API key not valid. Please pass a valid API key.\"\n]"
+  },
+  {
+    "sender": "You",
+    "message": "hi"
+  },
+  {
+    "sender": "Gemini",
+    "message": "Hi there! How can I help you today?\n"
+  },
+  {
+    "sender": "You",
+    "message": "hello"
+  },
+  {
+    "sender": "Gemini",
+    "message": "Hello! How can I help you today?\n"
+  },
+  {
+    "sender": "You",
+    "message": "my name is Ayush Mahadik"
+  },
+  {
+    "sender": "Gemini",
+    "message": "Okay, Ayush Mahadik. Nice to meet you! Is there anything I can help you with today?\n"
+  },
+  {
+    "sender": "You",
+    "message": "what is my name"
+  },
+  {
+    "sender": "Gemini",
+    "message": "I am a large language model, and I don't have a name. I am not a person.\n"
+  },
+  {
+    "sender": "You",
+    "message": "ok"
+  },
+  {
+    "sender": "Gemini",
+    "message": "Error: \n  No API_KEY or ADC found. Please either:\n    - Set the `GOOGLE_API_KEY` environment variable.\n    - Manually pass the key with `genai.configure(api_key=my_api_key)`.\n    - Or set up Application Default Credentials, see https://ai.google.dev/gemini-api/docs/oauth for more information."
+  }
+]
