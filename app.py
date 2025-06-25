@@ -5,13 +5,13 @@ import os
 
 app = Flask(__name__)
 
-# Configure Gemini API
+
 genai.configure(api_key="")
 model = genai.GenerativeModel("models/gemini-2.0-flash-lite")
 
 HISTORY_FILE = "chat_history.json"
 
-# Load history if exists
+
 if os.path.exists(HISTORY_FILE):
     with open(HISTORY_FILE, "r", encoding="utf-8") as f:
         chat_history = json.load(f)
